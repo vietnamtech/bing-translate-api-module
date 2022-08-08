@@ -1,39 +1,22 @@
 {
-  "name": "bing-translate-api",
-  "version": "2.6.0",
-  "description": "A simple and free API for Bing Translator for Node.js",
-  "main": "src/index.js",
-  "scripts": {
-    "test": "node test/index.js && node test/lang.js",
-    "gen:langmap": "node scripts/generate-lang-map.js"
+  "name": "bing-translate-api-module",
+  "version": "1.0.0",
+  "description": "[![NPM version](https://img.shields.io/npm/v/bing-translate-api.svg?style=flat)](https://www.npmjs.org/package/bing-translate-api)\r [![Auto Test](https://github.com/plainheart/bing-translate-api/actions/workflows/autotest.yml/badge.svg)](https://github.com/plainheart/bing-translate-api/actions/workflows/autotest.yml)\r [![NPM Downloads](https://img.shields.io/npm/dm/bing-translate-api.svg)](https://npmcharts.com/compare/bing-translate-api?minimal=true)\r [![License](https://img.shields.io/npm/l/bing-translate-api.svg)](https://github.com/plainheart/bing-translate-api/blob/master/LICENSE)",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
   },
-  "keywords": [
-    "bing",
-    "translator",
-    "api",
-    "javascript",
-    "free",
-    "node",
-    "translate"
-  ],
-  "files": [
-    "src",
-    "test"
-  ],
-  "author": "plainheart",
-  "license": "MIT",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/plainheart/bing-translate-api.git"
+    "url": "git+https://github.com/vietnamtech/bing-translate-api-module.git"
   },
+  "author": "",
+  "license": "ISC",
   "bugs": {
-    "url": "https://github.com/plainheart/bing-translate-api/issues"
+    "url": "https://github.com/vietnamtech/bing-translate-api-module/issues"
   },
-  "homepage": "https://github.com/plainheart/bing-translate-api#readme",
-  "dependencies": {
-    "got": "^11.8.5"
-  },
-  "devDependencies": {
-    "cheerio": "^1.0.0-rc.12"
-  }
+  "homepage": "https://github.com/vietnamtech/bing-translate-api-module#readme"
 }
